@@ -3,7 +3,7 @@ class Prime():
 		if number <= 1 or number % 2 == 0:
 			return number == 2
 
-		for n in range(number - 1, 0):
+		for n in range(number / 2, 0):
 			if n % number == 0:
 				return False
 
